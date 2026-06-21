@@ -1,1 +1,150 @@
+Table of Contents
+Overview……………………………………………………………………   
+Scope……………………………………………………………………….   
+Inclusions………………………………………………………………….    
+Test Environments………………………………………………………..    
+Exclusions………………………………………………………………….   
+Test Strategy……………………………………………………………….   
+Defect Reporting Procedures:..............................................................  
+Roles/Responsibilities……………………………………………………..  
+Test Schedule………………………………………………………………  
+Test Delivarables…………………………………………………………… 
+Pricing……………………………………………………………………….  
+Entry and Exit Criteria……………………………………………………..  
+Suspension and Resumption Criteria……………………………………  
+Tools…………………………………………………………………………  
+Risks and Mitigation's……………………………………………………… 
+Approvals…………………………………………………………………… 
+
+
+
+Overview
+As part of the project,’OpenCart’ asked Bright to test few functionalities of ‘https://demo.opencart.com/’ web application.
+
+This document serves as high level test planning document with details on the scope of project,test strategy,test schedule,and resource requirements.
+
+
+
+Scope
+The scope of the project includes testing the following features of  ‘https://demo.opencart.com/’ web application.
+
+
+Inclusions
+- Register
+- Login & Logout
+- Forgot Password
+- Search
+- Product Compare
+- Product display Page
+- Add to Cart
+- Wish List
+- Shopping Cart
+- Currencies
+- Home Page
+- Checkout Page
+-My Account page
+-Order history page
+-Downloads page 
+-Contact us page 
+-Menu Options
+-Category pages
+
+The above functional areas,need to be Tested.
+
+Test Environments
+-Windows 10 : Chrome,Firefox
+-Mac Os : Safari browser
+-Android Mobile : Chrome
+-Iphone Mobile : Safari
+
+Exclusions
+-All the features except those that are mentioned under ‘Inclusions’
+-Any third-party features or gateways
+-Test Automation
+
+
+Test Strategy
+Bright has communicated with Opencart and has understood that we need to perform Functional Testing of all the functionalities mentioned in the above Scope section.
+
+As part of Functional Testing,we will follow the below approach;
+
+Step 1: Creation of Test Scenarios and Test Cases for the different features in scope.
+-We will apply several Test Design Techniques while creating Test Cases such as Equivalence class partition,Decision Table testing,Use case Testing.
+-We also use our expertise in Creating Test Cases by applying Error guessing, Exploratory Testing.
+
+Step 2: Our testing process,when we get the application for Testing.
+-Firstly,we will perform Smoke Testing to check if the different and important functionalities of the application are working.
+-We reject the build,if the smoke Testing fails and will wait for the stable build before performing in depth testing of the application.
+-Once we receive stable build which passes Smoke testing, We perform in depth testing using the Test cases created.
+-We the report the bugs in bug tracking tool and send you the defect found on that day in a status of the email.
+-As part of the Testing,we will perform the following types of Testing ; Smoke Testing and Sanity Testing,Regression Testing, Usability Testing and Functionality.
+Step 3 : We will follow the below practices to make our Testing Better;
+-Context Driven Testing : we will perform testing as per the context provided.
+-Shift left Testing : we will start testing from the beginning of the development itself.
+-Exploratory Testing: Using our expertise,we will perform exploratory testing.
+-End to End flow Testing: we will Test end to end scenario which involves multiple functionalities.
+
+
+Defect Reporting Procedure
+The following will be noted;
+-Any deviation from expected behaviour will be noted.
+-Any usability issues will also be reported.
+-After discovery of a defect,it will be retested to verify nature of the defect.
+-All defects and Test cases will be recorded in an excelDocument.
+
+
+Roles/Responsibilities 
+Test Manager - Escalations
+Test Lead - Create Test plans,Report defects,Attend meeting with clients,coordinate Test execution
+Senior Test Engineer - Interact with the application,Create and execute the Test Cases
+Test Engineer - Interact with the application,Create and execute the Test Cases,Report defects
+
+
+Test Schedules
+Task and Time Duration
+
+Creating test plan - Start date to end date
+Test case creation - Start date to end date
+Test case execution - Start date to end date
+Summary of report submission - Date
+
+Test Deliverables
+The following are to be delivered to the client :
+
+Test Plan
+Functional Test Cases
+Defect Reports
+Summary
+
+Pricing
+NA
+
+Entry and Exit Criteria
+Entry Criteria: Once the testing Team receives the required documents or details about the project.
+Exit Criteria: Doubts are cleared
+
+Suspension and Resumption Criteria
+Based on client decision, we will suspend and resume the project
+We will ramp up and ramp down the resources per the clients need.
+Tools
+The following tools will be used for this project;
+
+-Mind map tool
+-Word and excel documents tool
+
+Risk and Mitigation's
+Risk : Non availability of resources
+Mitigation's: Backup Resource Planning
+Risk: Build URL isn't working
+Mitigation's: Resources will work on other tasks
+
+
+Approvals
+Team will send different types of documents for client approval like below;
+-Test plan
+-Test Scenario
+-Test Cases
+-Reports
+Testing will only continue to the next steps once these approvals are done.
+
 
