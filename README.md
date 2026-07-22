@@ -47,3 +47,34 @@ Completed modules include:
 - Git
 - GitHub
 - Playwright
+
+
+# OpenCart Cart API Testing using Postman
+
+## Overview
+API test suite for OpenCart's cart functionality, covering positive 
+and negative test scenarios using Postman and Newman.
+
+## Test Coverage
+- 10 requests, 31 assertions
+- Positive flows: add to cart, session creation, cart content
+- Negative testing: invalid quantity, missing fields, invalid product IDs
+
+## Key Findings
+🐛 Bug: Negative quantity accepted — POST /api/cart/add returns 
+success even when quantity is -5, instead of rejecting the request.
+
+🐛 Bug: Missing quantity accepted — Same endpoint accepts requests 
+with no quantity specified, returning success instead of a validation error.
+
+⚠️ Performance note: Cart Content endpoint responded in 601ms, 
+slightly above the 500ms target threshold.
+
+## Tools Used
+Postman, Newman (CLI test runner), JavaScript (test scripts)
+
+## How to Run
+\`\`\`
+newman run postman/Opencart_RestAPI_CartModule.postman_collection.json \
+  -e postman/QA.postman_environment.json
+\`\`\`
