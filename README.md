@@ -46,7 +46,7 @@ Completed modules include:
 - OpenCart
 - Git
 - GitHub
-- Playwright
+  
 
 
 # OpenCart Cart API Testing using Postman
