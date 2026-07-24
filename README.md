@@ -10,7 +10,7 @@ This repository contains my QA testing project using OpenCart.
 
 - Manual Testing
 - API Testing (Postman)
-- UI Automation (Playwright + TypeScript)
+
   
 
 ## Manual Testing
@@ -66,6 +66,15 @@ success even when quantity is -5, instead of rejecting the request.
 
 🐛 Bug: Missing quantity accepted — Same endpoint accepts requests 
 with no quantity specified, returning success instead of a validation error.
+
+## Bug Reports
+
+| Bug ID | Description | Severity | Status |
+|--------|-------------|----------|--------|
+| BUG-001 | API accepts negative quantity when adding a product to the cart | Medium | Open |
+| BUG-002 | API accepts request with missing quantity parameter | Medium | Open |
+
+See the Bug_Reports folder for detailed bug reports.
 
 ⚠️ Performance note: Cart Content endpoint responded in 601ms, 
 slightly above the 500ms target threshold.
