@@ -39,6 +39,7 @@ Completed modules include:
 - My Acount Information
 - My Account
 - Search Functionality
+- Bug Reports
 
 ## Tools
 
@@ -67,7 +68,7 @@ success even when quantity is -5, instead of rejecting the request.
 🐛 Bug: Missing quantity accepted — Same endpoint accepts requests 
 with no quantity specified, returning success instead of a validation error.
 
-## Bug Reports
+## API Bug Reports
 
 | Bug ID | Description | Severity | Status |
 |--------|-------------|----------|--------|
